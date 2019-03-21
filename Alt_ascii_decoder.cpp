@@ -11,6 +11,6 @@ int main()
     else
     cout<<char(int(a[i])+1);
   }
-  cout<<endl<<"Congrats! It is working. Enjoy :P";
+  cout<<endl<<"Congrats! It is working. Enjoy";
   
 }
