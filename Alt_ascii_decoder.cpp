@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
   string a;
+  cout<<"ENTER A STRING"<<endl;
   cin>>a;
   for(int i=0;i<a.size();i++)
   {
@@ -11,6 +12,6 @@ int main()
     else
     cout<<char(int(a[i])+1);
   }
-  cout<<endl<<"Congrats! It is working. Enjoy";
+  cout<<endl<<"Congrats! It is working. Enjoy"<<endl;
   
 }
